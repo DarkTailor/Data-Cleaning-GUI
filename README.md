@@ -4,7 +4,7 @@ This is a graphical user interface (GUI) application built in Python for cleanin
 
 ## Usage
 
-1. **Installation**: No installation is required. Simply download the standalone executable (`Cleaning_GUI.exe`) from the releases section of this repository.
+1. **Installation**: No installation is required. Simply download the standalone executable (`Cleaning_GUI.exe`) from the repository. Ensure you download the icon image as well
 
 2. **Running the Application**:
    - Double-click on the `Cleaning_GUI.exe` file to launch the application.
@@ -23,5 +23,5 @@ This is a graphical user interface (GUI) application built in Python for cleanin
 
 ## Notes
 - If you encounter any issues or have suggestions for improvements, please [open an issue](link_to_issues) on GitHub.
-- This application was built using Python and Tkinter for the GUI, and it was packaged into a standalone executable using PyInstaller. The exe file can be found in the dist folder. The Clean folder is just the virtual environment created
+- This application was built using Python and Tkinter for the GUI, and it was packaged into a standalone executable using PyInstaller. 
 
