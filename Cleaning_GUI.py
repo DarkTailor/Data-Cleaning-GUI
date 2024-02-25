@@ -21,7 +21,7 @@ class DataCleanerApp(tk.Tk):
         self.main_frame = tk.Frame(self)
         self.main_frame.pack(side=tk.LEFT, expand=True, fill=tk.BOTH)
 
-        # Buttons
+
         self.buttons = {
             "Read": self.read_file,
             "Identify Missing Values": self.identify_missing_values,
@@ -49,7 +49,6 @@ class DataCleanerApp(tk.Tk):
         file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv"), ("Excel files", "*.xlsx")])
         if file_path:
             try:
-                # Read data from file
                 if file_path.endswith('.csv'):
                     self.df = pd.read_csv(file_path)
                 elif file_path.endswith('.xlsx'):
@@ -60,10 +59,9 @@ class DataCleanerApp(tk.Tk):
                 # Save a copy of the original dataframe
                 self.original_df = copy.deepcopy(self.df)
 
-                # Display data in the Text widget
                 self.update_display()
             except Exception as e:
-                self.data_text.delete(1.0, tk.END)  # Clear previous content
+                self.data_text.delete(1.0, tk.END) 
                 self.data_text.insert(tk.END, f"Error reading file: {e}")
 
     def identify_missing_values(self):
