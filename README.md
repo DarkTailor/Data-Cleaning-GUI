@@ -3,8 +3,7 @@ Data Cleaning GUI Application
 This is a graphical user interface (GUI) application built in Python for cleaning and processing data. It provides various features to handle common data cleaning tasks such as identifying missing values, dropping duplicates, and exporting cleaned data.
 
 Usage
-Installation: No installation is required. Simply download the standalone executable (Cleaning_GUI.zip files) from the repository along with the icon image (GUIicon.ico).
-
+Installation: No installation is required. Simply download the standalone executable (Cleaning_GUI.zip as well as Cleaning_GUI.z01 and Cleaning_GUI.z02) from the repository.
 Running the Application:
 
 Extract the contents of the Cleaning_GUI.zip file to a directory on your computer.
@@ -23,6 +22,7 @@ Running on Different Computers:
 The standalone executable (Cleaning_GUI.exe) can be run on any Windows computer without needing Python or any dependencies installed.
 You can place the executable file anywhere on the computer, such as the desktop or a specific folder.
 Notes
+To run the py file on your computer you will need to install a virtual environment as well as the libraries in that virtual environment to successfully run the py file.
 If you encounter any issues or have suggestions for improvements, please open an issue on GitHub.
 This application was built using Python and Tkinter for the GUI, and it was packaged into a standalone executable using PyInstaller.
 
